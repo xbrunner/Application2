@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TreasureHunt</string>
+    <string name="app_title">Treasure Hunt on Hönggerberg</string>
+    <string name="coins">Collected coins: %1$d</string>
+    <string name="temperature">Temperature: %1$.1f °C</string>
+    <string name="err_temperature">Temperature sensor is not available!</string>
+    <string name="speed">Speed: %1$.1f km/h</string>
+    <string name="distance">Distance: %1$.1f m</string>
+    <string name="distance_unk">Please select a treasure!</string>
+    <string name="wait_for_gps">Wait for the GPS to work!</string>
+    <string name="speed_unk">No speed available.</string>
+    <string name="no_location_enabled">The app does not run without location enabled!</string>
+    <string name="spinner_element">%1$s: %2$d coins</string>
+    <string name="err_reading_treasures">Error while reading treasures. Please restart the app!</string>
+    <string name="congrats_collected">Congratulations, you collected %1$s for %2$d coins!</string>
+    <string name="share">Share now!</string>
+</resources>
