@@ -6,11 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".ActivitiyMap">
 
+    <TextView
+            android:text="TextView"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView"
+            app:layout_constraintBottom_toBottomOf="@+id/mapView"
+            app:layout_constraintEnd_toEndOf="@+id/mapView" app:layout_constraintStart_toStartOf="parent"/>
+
     <com.esri.arcgisruntime.mapping.view.MapView
             android:id="@+id/mapView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent" tools:layout_editor_absoluteY="269dp"
+            tools:layout_editor_absoluteX="128dp">
     </com.esri.arcgisruntime.mapping.view.MapView>
+
+    <Switch
+            android:text="  Track Layer   "
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/switchTrack"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="@+id/mapView"/>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
