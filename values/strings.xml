@@ -14,4 +14,7 @@
     <string name="err_reading_treasures">Error while reading treasures. Please restart the app!</string>
     <string name="congrats_collected">Congratulations, you collected %1$s for %2$d coins!</string>
     <string name="share">Share now!</string>
+
+    <string name="track_featureServiceURL">https://services1.arcgis.com/cgb2c0bypateGgm9/arcgis/rest/services/Path_Layer/FeatureServer</string>
+    <string name="treasure_featureServiceURL">https://services1.arcgis.com/cgb2c0bypateGgm9/arcgis/rest/services/Treasure_Layer/FeatureServer</string>
 </resources>
