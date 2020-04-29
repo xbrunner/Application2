@@ -17,9 +17,17 @@
     <com.esri.arcgisruntime.mapping.view.MapView
             android:id="@+id/mapView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" tools:layout_editor_absoluteY="269dp"
-            tools:layout_editor_absoluteX="128dp">
+            android:layout_height="match_parent" tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp">
     </com.esri.arcgisruntime.mapping.view.MapView>
+    <Button
+            android:text="SEARCH"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSearch" app:layout_constraintTop_toBottomOf="@+id/spinner"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"/>
+
 
     <Switch
             android:text="  Track Layer   "
